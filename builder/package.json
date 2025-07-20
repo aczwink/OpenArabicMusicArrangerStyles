@@ -1,0 +1,30 @@
+{
+  "name": "openarabicmusicarrangerstyles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec \"tsc && cd dist && node main.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aczwink/OpenArabicMusicArrangerStyles.git"
+  },
+  "keywords": [],
+  "author": "Amir Czwink",
+  "license": "AGPL-3.0",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/aczwink/OpenArabicMusicArrangerStyles/issues"
+  },
+  "homepage": "https://github.com/aczwink/OpenArabicMusicArrangerStyles#readme",
+  "devDependencies": {
+    "@types/node": "^24.0.14",
+    "nodemon": "^3.1.10",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@tonejs/midi": "^2.0.28",
+    "yaml": "^2.8.0"
+  }
+}
